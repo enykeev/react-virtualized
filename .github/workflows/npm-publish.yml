@@ -21,10 +21,10 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn lint
       - run: yarn typecheck
+      - run: yarn build
       - run: yarn test
       - run: yarn test:coverage
       - run: yarn prettier:diff
-      - run: yarn build
 
   publish-npm:
     needs: build
