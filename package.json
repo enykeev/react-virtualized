@@ -1,5 +1,5 @@
 {
-  "name": "react-virtualized",
+  "name": "@enykeev/react-virtualized",
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
   "user": "bvaughn",
@@ -32,7 +32,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --config webpack.config.dev.js",
     "test": "yarn run test:jest",
     "test:jest": "jest --no-watchman --runInBand",
-    "test:coverage": "jest --no-watchman --maxWorkers 2 --coverage && codecov",
+    "test:coverage": "jest --no-watchman --maxWorkers 2 --coverage",
     "watch": "watch 'clear && yarn run test -s' source",
     "watch:jest": "jest --no-watchman --watch"
   },
