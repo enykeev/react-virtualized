@@ -4,6 +4,9 @@
 name: Node.js Package
 
 on:
+  push:
+    branches:
+      - gh_publish_npm
   release:
     types: [created]
 
